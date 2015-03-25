@@ -1,2 +1,2 @@
-www: node bin/www.js
+www: node bin/www
 
