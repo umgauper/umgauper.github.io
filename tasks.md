@@ -1,4 +1,4 @@
-* deploy to heroku
+* deploy to heroku -why is git push heroku mastr gtting stuck??
 * point unagauper.com to heroku app
 (maybe)
 * find high res image for background of heading
@@ -13,4 +13,5 @@
 * highlight skills used
 
 * redo talking books form with angular? and add to portfolio
+* improve styles of backbone shopping cart? and add to portfolio...or...make MEAN-stack app
 * add JS quiz to portfolio? idk...
