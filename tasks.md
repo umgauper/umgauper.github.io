@@ -11,7 +11,7 @@
 * add resume page?
 * short description for each project
 * highlight skills used
-
+cd
 * redo talking books form with angular? and add to portfolio
 * improve styles of backbone shopping cart? and add to portfolio...or...make MEAN-stack app
 * add JS quiz to portfolio? idk...
