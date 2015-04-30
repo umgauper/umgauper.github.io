@@ -9,13 +9,14 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>One Page Wonder - Start Bootstrap Template</title>
+    <title>Una Gauper</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="../stylesheets/bootstrap.min.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="../stylesheets/one-page-wonder.css" rel="stylesheet">
+    <link href="../stylesheets/style.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -27,7 +28,6 @@
 </head>
 
 <body>
-
     <!-- Navigation -->
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -39,16 +39,16 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="#">Start Bootstrap</a>
+                <a class="navbar-brand" href="#">Una Gauper</a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav">
+                    <!--<li>-->
+                        <!--<a href="#about">About</a>-->
+                    <!--</li>-->
                     <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#services">Portfolio</a>
+                        <a href="#portfolio">Portfolio</a>
                     </li>
                     <li>
                         <a href="#contact">Contact</a>
@@ -65,7 +65,7 @@
         <div class="headline">
             <div class="container">
                 <h1>Una Gauper</h1>
-                <h2>Full-stack JavaScript Developer</h2>
+                <h2>Web Developer</h2>
             </div>
         </div>
     </header>
@@ -73,50 +73,79 @@
     <!-- Page Content -->
     <div class="container">
 
-        <hr class="featurette-divider">
+        <!--<hr class="featurette-divider"  id="about">-->
+
+        <!--&lt;!&ndash; First Featurette &ndash;&gt;-->
+        <!--<div class="featurette">-->
+            <!--<img class="featurette-image img-circle img-responsive pull-right" src="../images/screenshot-csp.png">-->
+            <!--<p class="lead" >I am a web developer with a focus on JavaScript applications. In addition to CSS3 and HTML5 I am also familiar with Node.js, AngularJS Check out my resume: linkedIn.-->
+                             <!--Twitter. I has STEM degree. Familiar with git. Currently looking for employment in SF Bay Area.-->
+            <!--</p>-->
+        <!--</div>-->
+
+        <hr class="featurette-divider"  id="portfolio">
 
         <!-- First Featurette -->
-        <div class="featurette" id="about">
-            <img class="featurette-image img-circle img-responsive pull-right" src="../images/screenshot-csp.png">
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../images/quiz2.png">
             <h2 class="featurette-heading">Project #1:
-                <span class="text-muted"><a href="http://www.coolstuffplus.com">www.coolstuffplus.com</a></span>
+                <span class="text-muted"><a href="http://unasquiz.herokuapp.com">Quiz App</a></span>
+            <a href="https://github.com/umgauper/JS_Quiz2"><img src="../images/GitHub-Mark-32px.png"></a>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="skills">html5 css3 jQuery responsive-design</p>
+            <p class="lead">
+                I developed this simple quiz application using MongoDB, Express, AngularJS, and Node.js (MEAN stack). Passport.js handles the user logins.
+            </p>
+            <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span></p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Second Featurette -->
-        <div class="featurette" id="contact">
-            <img class="featurette-image img-circle img-responsive pull-right" src="http://placehold.it/500x500">
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../images/screenshot-csp.png">
             <h2 class="featurette-heading">Project #2:
-                <span class="text-muted">Will Seal the Deal.</span>
+                <span class="text-muted"><a href="http://www.coolstuffplus.com">Cool Stuff Plus</a></span>
+            <a href="https://github.com/umgauper/Cool-Stuff-Plus"><img src="../images/GitHub-Mark-32px.png"></a>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
+            <p class="lead"> I created this site for a client's small business.</p>
+            <p class="skills"><span>css3</span> <span>HTML5</span> <span>AngularJS</span> <span>jQuery</span> <span>responsive design</span></p>
         </div>
 
         <hr class="featurette-divider">
 
         <!-- Third Featurette -->
-        <div class="featurette" id="services">
-            <img class="featurette-image img-circle img-responsive pull-left"   src="../images/team-square.png">
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right"   src="../images/team-square.png">
             <h2 class="featurette-heading">Project #3:
                 <span class="text-muted"><a href="http://crash.events">Reno Crash Events</a></span>
+            <a href="https://github.com/crashevents/crash-events"><img src="../images/GitHub-Mark-32px.png"></a>
             </h2>
-            <p class="lead">Donec ullamcorper nulla non metus auctor fringilla. Vestibulum id ligula porta felis euismod semper. Praesent commodo cursus magna, vel scelerisque nisl consectetur. Fusce dapibus, tellus ac cursus commodo.</p>
-            <p class="skills">JavaScript Google Maps API Git</p>
+            <p class="lead">
+                I participated in Hack4Reno 2014, a hack-a-thon for civic projects in Reno, Nevada. With a team of developers, I helped create an interactive visualization of traffic accident data. Node.js, Ember.js, and SQL made up the tech stack for the project.
+                Our project won was chosen as the "Best Use of City Data".
+            </p>
+            <p class="skills"><span>JavaScript</span> <span>Google Maps API</span> <span>Git</span></p>
+        </div>
+
+        <hr class="featurette-divider" id="contact">
+
+        <!-- Contact -->
+        <div class="featurette" class="contact">
+            <!--<img class="featurette-image img-circle img-responsive pull-left" src="../images/unave.jpg" width="300px" height="300px">-->
+            <h2 class="featurette-heading">
+                <span>Contact Me:</span>
+            </h2>
+            <h3><a href="mailto:umgauper@gmail.com">umgauper@gmail.com</a></h3>
+            <h3><a href="https://www.linkedin.com/pub/una-gauper/54/8a0/a82">LinkedIn</a></h3>
+            <h3><a href="https://twitter.com/umgauper">Twitter</a></h3>
         </div>
 
         <hr class="featurette-divider">
-
-
-
         <!-- Footer -->
         <footer>
             <div class="row">
                 <div class="col-lg-12">
-                    <p>Copyright &copy; Your Website 2014</p>
+                    <p>Copyright &copy; Una Gauper 2015</p>
                 </div>
             </div>
         </footer>

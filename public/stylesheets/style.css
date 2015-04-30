@@ -1,8 +1,33 @@
 body {
-  padding: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
 }
 
-a {
-  color: #00B7FF;
+.navbar {
+  background-color: #2f5010 !important;
+}
+
+.navbar a {
+  color: #B7C47B !important;
+}
+
+.navbar a:hover {
+  color: #ffffff !important;
+}
+
+.skills span {
+  background-color: #B7C47B;
+  width:100px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  border-radius: 100px;
+  font-weight: bold;
+}
+
+#una {
+  border: 10px solid transparent;
+  border-radius: 100px;
+}
+
+.contact h2{
+  text-align: center;
 }
