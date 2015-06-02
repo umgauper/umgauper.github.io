@@ -22,7 +22,10 @@ body {
   border-radius: 100px;
   font-weight: bold;
 }
+.info span {
+  background-color: white;
 
+}
 #una {
   border: 10px solid transparent;
   border-radius: 100px;
