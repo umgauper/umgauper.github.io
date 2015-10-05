@@ -65,17 +65,28 @@
         <div class="headline">
             <div class="container">
                 <h1>Una Gauper</h1>
-                <h2>Web Developer</h2>
+                <h2>JavaScript Developer</h2>
             </div>
         </div>
     </header>
 
     <!-- Page Content -->
     <div class="container">
-        <hr class="featurette-divider"  id="portfolio">
+        <div class="social-media-buttons">
+            <div class="col-lg-1 col-lg-offset-3">
+                <a href="https://twitter.com/umgauper"><button class="btn btn-lg"><p>Twitter</p><img class="icon" src="../images/twitter3.png"></button></a>
+            </div>
+            <div class="col-lg-1 col-lg-offset-1">
+                <a href="https://github.com/umgauper"><button class="btn btn-lg"><p>Github</p><img class="icon" src="../images/github_icon.png"></button></a>
+            </div>
+            <div class="col-lg-1 col-lg-offset-1">
+                <a href="https://www.linkedin.com/pub/una-gauper/54/8a0/a82"><button class="btn btn-lg"><p>LinkedIn</p><img class="icon" src="../images/LinkedIn_Icon.png"></button></a>
+            </div>
+        </div>
+        <hr class="featurette-divider" id="portfolio">
         <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-right"   src="../images/team-square.png">
-            <h2 class="featurette-heading">Project #1:
+            <h2 class="featurette-heading">Team Project:
                 <span class="text-muted"><a href="http://crash.events">Reno Crash Events</a></span>
                 <a href="https://github.com/crashevents/crash-events"><img src="../images/GitHub-Mark-32px.png"></a>
             </h2>
@@ -87,30 +98,83 @@
         </div>
         <hr class="featurette-divider">
 
-        <!-- Second Featurette -->
         <div class="featurette">
             <img class="featurette-image img-circle img-responsive pull-left" src="../images/quiz3.png">
-            <h2 class="featurette-heading">Project #2:
+            <h2 class="featurette-heading">Project #1:
                 <span class="text-muted"><a href="http://unasquiz.herokuapp.com">Quiz App</a></span>
                 <a href="https://github.com/umgauper/JS_Quiz2"><img src="../images/GitHub-Mark-32px.png"></a>
             </h2>
             <p class="lead">
-                I developed this simple quiz application with MongoDB, Express, AngularJS, and Node.js (MEAN stack). I used Passport.js to handle user signup and logins. At the end of the quiz, the user's scores are updated to a MongoDB database.
+                I developed this quiz application with MongoDB, Express, AngularJS, and Node.js (MEAN stack). I used Passport.js to handle user signup and logins. At the end of the quiz, the user's scores are updated to a MongoDB database.
             </p>
             <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span></p>
         </div>
         <hr class="featurette-divider">
 
-        <!-- Third Featurette -->
+        <p class="lead"><b><i>Full stack projects: </i></b><i>I built each of the following MEAN (MongoDB, Express, Angular, Node.js) stack projects starting with a yeoman-generated angular-fullstack app. I used grunt and bower during the development of each project. All of the projects were reverse engineered from a pre-existing app as part of the Free Code Camp curriculum.</i></p>
+        <hr class="featurette-divider">
+
         <div class="featurette">
-            <img class="featurette-image img-circle img-responsive pull-right" src="../images/screenshot-csp.png">
-            <h2 class="featurette-heading">Project #3:
-                <span class="text-muted"><a href="http://umgauper.github.io/">Cool Stuff Plus</a></span>
-                <a href="https://github.com/umgauper/Cool-Stuff-Plus"><img src="../images/GitHub-Mark-32px.png"></a>
+            <img class="featurette-image img-circle img-responsive pull-right" src="../images/votingapp.png">
+            <h2 class="featurette-heading">Project #2:
+                <span class="text-muted"><a href="https://votingapp.herokuapp.com">Voting</a></span>
+                <a href="https://github.com/umgauper/voting"><img src="../images/GitHub-Mark-32px.png"></a>
             </h2>
-            <p class="lead"> I created this site for a client's small business. I built the site without using Bootstrap in order to learn the ins and outs of CSS and HTML and responsive design. I used a little bit of jQuery and AngularJS to make the tabs.
-            </p> <!-- add stuff re: struggles without bootstrap...GIMP..one of my first projects...etc?-->
-            <p class="skills"><span>css3</span> <span>HTML5</span> <span>AngularJS</span> <span>jQuery</span> <span>responsive design</span></p>
+            <p class="lead">
+                Users create polls with options that other users can vote on. Each user can view the results of his/her polls in a graph. I created the charts using the angular-chart.js library.
+            </p>
+            <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span></p>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../images/sociallife.png">
+            <h2 class="featurette-heading">Project #3:
+                <span class="text-muted"><a href="http://secure-forest-9354.herokuapp.com/">Social Life</a></span>
+                <a href="https://github.com/umgauper/sociallife"><img src="../images/GitHub-Mark-32px.png"></a>
+            </h2>
+            <p class="lead">
+                Users can search for the bars in their city, then add themselves to a bar and see how many other people are going to the bar. This app uses the Yelp API to return the list of bars in a particular city.
+            </p>
+            <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span> <span>Yelp Search API</span> </p>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../images/bookoutpost.png">
+            <h2 class="featurette-heading">Project #4:
+                <span class="text-muted"><a href="https://fast-basin-2346.herokuapp.com/">Book Outpost</a></span>
+                <a href="https://github.com/umgauper/bookswap"><img src="../images/GitHub-Mark-32px.png"></a>
+            </h2>
+            <p class="lead">Users post the books they own and a cover of the book is added to their virtual bookshelf. Users can then propose a trade with another user.
+            </p>
+            <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span><span>Google Books API</span></p>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-left" src="../images/stockjump.png">
+            <h2 class="featurette-heading">Project #5:
+                <span class="text-muted"><a href="http://sheltered-sands-1839.herokuapp.com/">Stock Jump</a></span>
+                <a href="https://github.com/umgauper/stockjump"><img src="../images/GitHub-Mark-32px.png"></a>
+            </h2>
+            <p class="lead">
+                The user enters a stock symbol and a chart updates to show the line graph of the stock entered. The stock data is retrieved via the Yahoo Finance API. The chart is rendered with the highcharts.js library.
+            </p>
+            <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span><span>Yahoo Finance API</span></p>
+        </div>
+        <hr class="featurette-divider">
+
+        <div class="featurette">
+            <img class="featurette-image img-circle img-responsive pull-right" src="../images/linkterest.png">
+            <h2 class="featurette-heading">Project #6:
+                <span class="text-muted"><a href="https://fathomless-island-5214.herokuapp.com/">Linkterest</a></span>
+                <a href="https://github.com/umgauper/linkterest"><img src="../images/GitHub-Mark-32px.png"></a>
+            </h2>
+            <p class="lead">
+                Users can add and delete images that are then displayed in a pinterest style grid.
+            </p>
+            <p class="skills"> <span>MongoDB</span> <span>Express</span> <span>AngularJS</span> <span>Node.js</span><span>angular-masonry.js</span></p>
         </div>
 
         <hr class="featurette-divider" id="contact">
@@ -121,20 +185,11 @@
                 <span>Contact Me:</span>
             </h2>
 
-            <p class="lead" >I am a web developer with a focus on JavaScript applications. In addition to CSS3 and HTML5, I am also familiar with Node.js, AngularJS, MongoDB, and I have experience using Git on a team project. I am currently looking for work as a full-stack JavaScript developer in Sacramento or the San Francisco Bay Area.
+            <p class="lead" >I am a JavaScript developer with experience using object-oriented JavaScript programming patterns, writing RESTful APIs,
+                building software in a team environment using Git, and writing HTML5 and CSS3 that conforms to the latest web standards. As evidenced by my portfolio, I have built several projects with
+                MongoDB, Angular.js, Express, and Node.js. I am looking for an entry-level JavaScript developer position. You can contact me at <a href="mailto:umgauper@gmail.com">umgauper@gmail.com</a>,
+                or via my <a href="https://www.linkedin.com/pub/una-gauper/54/8a0/a82">LinkedIn</a> profile or <a href="https://twitter.com/umgauper">Twitter</a>.
             </p>
-            <p class="skills info"> <!-- replace these with logos! use image sprites-->
-                <span>
-                    <a href="mailto:umgauper@gmail.com">umgauper@gmail.com</a>
-                </span>
-                <span>
-                    <a href="https://www.linkedin.com/pub/una-gauper/54/8a0/a82">LinkedIn</a>
-                </span>
-                <span>
-                    <a href="https://twitter.com/umgauper">Twitter</a>
-                </span>
-            </p>
-
         </div>
         <hr class="featurette-divider">
         <!-- Footer -->
@@ -145,7 +200,6 @@
                 </div>
             </div>
         </footer>
-
     </div>
     <!-- /.container -->
 

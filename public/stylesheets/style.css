@@ -34,3 +34,29 @@ body {
 .contact h2{
   text-align: center;
 }
+
+.icon {
+  width: 20px;
+  height: 20px;
+}
+
+.social-media-buttons {
+  margin-top: 1%;
+}
+
+.social-media-buttons p {
+  display: inline;
+  color: rgb(51, 51, 51);
+  font: 18px Helvetica;
+  font-weight: bold;
+  margin: 0 10px 0 0;
+}
+
+.social-media-buttons button {
+  box-shadow: 5px 5px 0 0 rgb(200, 200, 200);
+}
+
+.featurette-image {
+  width: 250px;
+  height: 250px;
+}
