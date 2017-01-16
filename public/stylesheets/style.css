@@ -60,3 +60,16 @@ body {
   width: 250px;
   height: 250px;
 }
+
+.featurette-image {
+  border: 5px solid #B7C47B;
+}
+
+@media screen and (max-width: 500px) {
+  .skills span {
+     background-color: transparent;
+     display: block;
+}
+
+
+}
