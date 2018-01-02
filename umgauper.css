@@ -1,19 +1,50 @@
+.container {
+    display: flex;
+    align-content: space-around;
+    padding: 100px;
+}
+
+.right {
+    width: 75%;
+    padding: 0 50px;
+}
 
 p {
-    width: 80%;
+    font-size: 24px;
 }
 
-h2, p {
-    padding: 0 20px;
+a:visited {
+   color: #00bcd4;
 }
 
-iframe {
-    height: 500px;
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
 }
 
-body {
-    font-family: "Helvetica";
+#about .right {
+    display: flex;
 }
+
+#about p {
+    padding: 0 50px;
+}
+
+ul {
+    padding: 0;
+}
+/*h2, p {*/
+    /*padding: 0 20px;*/
+/*}*/
+
+/*iframe {*/
+    /*height: 500px;*/
+/*}*/
+
+/*body {*/
+    /*font-family: "Helvetica";*/
+/*}*/
 
 ul {
     list-style: none;
