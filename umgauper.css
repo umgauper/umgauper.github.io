@@ -38,3 +38,27 @@ ul {
 ul {
     list-style: none;
 }
+
+/* Medium Large Screens */
+@media all and (max-width: 1300px) {
+    .container {
+        padding: 50px;
+    }
+}
+
+/* Medium and Small Screens */
+@media all and (max-width: 800px) {
+    .container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .right, .left {
+        width: 100%;
+        padding: 0;
+    }
+
+    #about p {
+        padding: 0;
+    }
+}
