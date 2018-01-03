@@ -50,7 +50,7 @@ ul {
 @media all and (max-width: 800px) {
     .container {
         flex-direction: column;
-        padding: 10px;
+        padding: 30px;
     }
 
     .right, .left {
