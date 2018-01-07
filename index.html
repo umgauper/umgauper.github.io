@@ -24,6 +24,7 @@
             <li><a href="#map">Map</a></li>
             <li><a href="#reduce">Reduce</a></li>
             <li><a href="#closures">Closures</a></li>
+            <li><a href="#currying">Currying</a></li>
         </ul>
         <p>As a JavaScript study project, I'm going through the
             <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=2&cad=rja&uact=8&ved=0ahUKEwiivfKgtbjYAhXkylQKHdLTCPsQtwIIMDAB&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DBMUiFMZr7vk&usg=AOvVaw3ZRq0p-wFyXzv-kyACytAk">Fun Fun Function</a> video series on functional programming.
@@ -64,6 +65,15 @@
         <p>In my JSBin, the function appendImages has access to the numberOfImages variable. Each time appendImages is called, the numberOfImages value increases by 1.
         </p>
         <a class="jsbin-embed" href="http://jsbin.com/qobuvij/embed?js,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.1"></script>
+        <h2 id="currying">Currying</h2>
+        <p>A curried function is a function that only takes one of its parameters at a time. The first call to a curried function returns a function that takes the next paramater, which returns a function that takes the next parameter, and so on.
+        </p>
+        <p>You can curry a non-curried function using bind. Below, I demonstrate currying the makeCircle function using bind, and then an example of a curried function, curriedMakeCircle.
+        </p>
+        <a class="jsbin-embed" href="http://jsbin.com/zepehey/3/embed?js,output">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.1"></script>
+        <p>For the previous JSBin, for simplicity, I showed an example of a curried function that took one parameter at a time. But you can pass more than one parameter, as I do in the following JSBin.
+        </p>
+        <a class="jsbin-embed" href="http://jsbin.com/zugirus/2/embed?js,console">JS Bin on jsbin.com</a><script src="http://static.jsbin.com/js/embed.min.js?4.1.1"></script>
     </div>
 </div>
 </body>
